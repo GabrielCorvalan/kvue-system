@@ -1,18 +1,17 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <DraggableGrid msg="Welcome to Your Vue.js App" />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import DraggableGrid from "@/components/DraggableGrid.vue";
 
 export default {
   name: "Home",
   components: {
-    HelloWorld
+    DraggableGrid
   }
 };
 </script>
